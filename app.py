@@ -5,6 +5,5 @@ age_months= age*12
 age_weeks= age*52
 age_days= age*365
 st.write(f"--- {name}, you are {age} years old.")
-st.write(f" {age_months} months old.")
-st.write(f" {age_weeks} weeks old.")
-st.write(f"{age_days} days 
+st.write(
+  
