@@ -1,6 +1,8 @@
 import streamlit as st
 st.title("🎂 Age Calculator")
 name = st.text_input("What is your name?")
+if st.button("calculate"):
+  st.write(f"button clicked! Hello{name}")
 birth_year = st.number_input("What year were you born?",min_value=1900, max_value=2026,value=2000)
 age = 2026 - birth_year
 st.header(f"Hello {name}!")
