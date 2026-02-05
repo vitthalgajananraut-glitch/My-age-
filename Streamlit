@@ -1,8 +1,9 @@
-name = st.text_print("What is your name? ")
-birth_year = (st.number_input("What year were you born? "))
+st.title("🎂 Age Calculator")
+name = st.text_input("What is your name?")
+birth_year = st.number_input("What year were you born?", min_value=1900, max_value=2
 age = 2026 - birth_year
-age_months= age*12
-age_weeks= age*52
-age_days= age*365
-st.write(f"--- {name}, you are {age} years old.")
-st.write
+st.header(f"Hello {name}!")
+st.subheader(f"You are {age} years old.")
+st.write(f"📅 Months: {age * 12}")
+st.write(f"🗓️ Weeks: {age * 52}")
+st.write(f"☀️ Days: {age * 365}")
