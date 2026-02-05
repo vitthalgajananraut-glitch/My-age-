@@ -1,3 +1,4 @@
+import streamlit as st
 st.title("🎂 Age Calculator")
 name = st.text_input("What is your name?")
 birth_year = st.number_input("What year were you born?", min_value=1900, max_value=2026,value=2000)
