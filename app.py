@@ -10,4 +10,3 @@ st.write(f"🗓️ Weeks: {age * 52}")
 st.write(f"☀️ Days: {age * 365}")
 st. balloons()
 st.snow()
-st.sidebar
